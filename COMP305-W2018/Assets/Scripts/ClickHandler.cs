@@ -3,15 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ClickHandler : MonoBehaviour {
-    GameObject gameObject;
+    public GameObject player;
+    public Sprite color;
 
-	// Use this for initialization
-	void Start () {
-        gameObject = GetComponent<GameObject>();
+    private SpriteRenderer render;
+
+    // Use this for initialization
+    void Start () {
+        render = player.GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+    private void OnMouseDown()
+    {
+        render.sprite = color;
+    }
 }
