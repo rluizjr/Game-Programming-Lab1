@@ -7,6 +7,10 @@ TagManager:
   - Area1
   - Area2
   - Area3
+  - Limit
+  - Item1
+  - Item2
+  - Item3
   layers:
   - Default
   - TransparentFX
@@ -41,6 +45,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 2332310247
+    locked: 0
+  - name: Floor
+    uniqueID: 3864910469
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

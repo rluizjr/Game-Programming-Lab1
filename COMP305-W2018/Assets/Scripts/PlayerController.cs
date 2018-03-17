@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
 
     private float moveH;
-    private bool isRight = true;
+    //private bool isRight = true;
     private bool isGrounded = false;
 
     // Use this for initialization

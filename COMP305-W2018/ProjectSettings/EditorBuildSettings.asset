@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lab5.unity
+    guid: 9cfe79e5fe3b76b4ba10b943d469ddb1
+  - enabled: 1
+    path: Assets/Scenes/Lab5Score.unity
+    guid: 4d33a9451b5a4294882f95cff0850a32
